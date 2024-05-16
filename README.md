@@ -2,6 +2,7 @@ Keamanan Informasi
 
 # Paksa Masuk
 admin' --
+
 kata' or id_user = 1 --
 
 # Burp Suite
