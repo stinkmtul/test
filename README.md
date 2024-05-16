@@ -5,6 +5,8 @@ admin' --
 
 kata' or id_user = 1 --
 
+Bila tidak bisa diinspect/ctrl+shift+i
+
 Ctrl+Shift+J 
 
 Ctrl+Shift+C
