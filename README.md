@@ -48,22 +48,25 @@ steghide extract -sf Galaksi.jpg
 
 # SQLMAP - Windows
 
-Database :
+**Database :**
 
 sqlmap -u linkwebsite --dbs, maka akan muncul database yang digunakan dari website tersebut
 
-Kolom :
+
+**Kolom :**
 
 sqlmap -u linkwebsite -D namadatabase -columns 
 
-Tabel : 
+
+**Tabel :**
 
 sqlmap -u linkwebsite -D namadatabase -columns -T namatabel
 
-Dumpdata :
+
+**Dumpdata :**
 
 sqlmap -u linkwebsite -D namadatabase -columns -T namatabel --dump, ini akan memunculkan isi dari tabel
 
-Website decrpyt
+# Website decrpyt
 https://dencode.com/en/
 https://md5decrypt.net/en/
