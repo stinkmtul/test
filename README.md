@@ -5,6 +5,15 @@ admin' --
 
 kata' or id_user = 1 --
 
+Ctrl+Shift+J 
+
+Ctrl+Shift+C
+
+![image](https://github.com/stinkmtul/test/assets/123925640/7bc32a6c-dfc2-42cd-83b8-f1bee2050cac)
+
+more tools -> developer tools
+
+
 # Burp Suite
 
 <img width="415" alt="image" src="https://github.com/stinkmtul/test/assets/123925640/9a3c1574-b6ee-4ed6-aa09-057832e68361">
@@ -32,16 +41,17 @@ kata' or id_user = 1 --
 <img width="415" alt="image" src="https://github.com/stinkmtul/test/assets/123925640/eb4455ad-239a-4bfe-a3c2-2b0e43a14cd3">
 
 
-# Steghide (Windows)
+# Steghide (Windows & KaliLinux)
 
 <img width="415" alt="image" src="https://github.com/stinkmtul/test/assets/123925640/e3bf6e2d-e74e-4c41-acdf-5b05c301498c">
 
-ni buat naro isi file ke gambar
+![image](https://github.com/stinkmtul/test/assets/123925640/b96a5023-94a6-4651-a04c-2c12b00b5aa5)
 
-steghide embed -cf Galaksi.jpg -ef flag1.txt
+buat masukan
+steghide embed -cf namafoto -ef namafile
 
-ini buat extract
-steghide extract -sf Galaksi.jpg
+buat extract
+steghide extract -sf namafoto
 
 
 # Dirbuster - Windows
@@ -49,6 +59,7 @@ steghide extract -sf Galaksi.jpg
 <img width="415" alt="image" src="https://github.com/stinkmtul/test/assets/123925640/9fd9e08c-da31-4730-ad73-9e1b30ab22b5">
 
 <img width="415" alt="image" src="https://github.com/stinkmtul/test/assets/123925640/b2625c8d-9b59-4da4-990e-6526a561ec56">
+
 
 
 # SQLMAP - Kali Linux
