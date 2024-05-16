@@ -6,7 +6,7 @@ admin' --
 kata' or id_user = 1 --
 
 
-## **inspect**
+## **Inspect**
 
 Ctrl+Shift+J 
 
