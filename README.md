@@ -109,4 +109,9 @@ sqlmap -u linkwebsite -D namadatabase -columns -T namatabel -C namakolom --dump,
 
 # Website decrpyt
 https://dencode.com/en/
+
 https://md5decrypt.net/en/
+
+https://www.md5hashgenerator.com/
+
+https://www.base64encode.org/
