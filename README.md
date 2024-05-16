@@ -1,5 +1,9 @@
 Keamanan Informasi
 
+# Paksa Masuk
+admin' --
+kata' or id_user = 1 --
+
 # Burp Suite
 
 <img width="415" alt="image" src="https://github.com/stinkmtul/test/assets/123925640/9a3c1574-b6ee-4ed6-aa09-057832e68361">
